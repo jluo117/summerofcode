@@ -1,10 +1,10 @@
 def converttopair(T): 
-	if T<= 3 && T >0:
+	if T<= 3 and T >0:
 		return(T,3,T)
-	if T < 6 && T >= 4:
+	if T < 6 and T >= 4:
 		x = 6 - T
 		return (x,-(3-x))
-	if T <= 9 && T >= 7:
+	if T <= 9 and T >= 7:
 		x = T - 6
 		return (-x, - (3 -x))
 	else:
